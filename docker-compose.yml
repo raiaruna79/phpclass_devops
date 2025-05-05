@@ -1,0 +1,8 @@
+services:
+  php:
+    build:
+      context: .
+    image: mynewphp
+    container_name: webserver
+    ports:
+      - "8888:80"
